@@ -19,4 +19,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','CheckoutController@checkout');
 //Route::get('/','App\Http\Controllers\CheckoutController@checkout');
+//Route::get('/','App\Http\Controllers\CheckoutController@checkout');
+//Route::get('/','App\Http\Controllers\CheckoutController@checkout');
 Route::post('checkout','CheckoutController@afterpayment')->name('checkout.credit-card');
